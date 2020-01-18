@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { Router } from '@angular/router';
 import { EventService } from './shared';
+import { EventEmitter } from 'protractor';
 
 @Component({
   templateUrl: './create-event.component.html',
